@@ -47,7 +47,7 @@ public class Loginf extends AppCompatActivity {
                         startActivity(intent4);
                         break;
                     case 1:
-                        Intent intent5 = new Intent(Loginf.this, AppBase.class);
+                        Intent intent5 = new Intent(Loginf.this, AppBaseStudent.class);
                         startActivity(intent5);
                         break;
 

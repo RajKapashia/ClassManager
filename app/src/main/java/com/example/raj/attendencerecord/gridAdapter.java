@@ -203,7 +203,7 @@ public class gridAdapter extends BaseAdapter{
             anim.setRepeatCount(Animation.INFINITE);
             imageView.startAnimation(anim);
         }
-        else if(names.get(position).toString().equals("SETTING"))
+        else if(names.get(position).toString().equals("SETTINGS"))
         {
             imageView.setImageResource(R.drawable.setting);
             v.setOnClickListener(new View.OnClickListener() {
@@ -224,7 +224,7 @@ public class gridAdapter extends BaseAdapter{
             anim.setRepeatCount(Animation.INFINITE);
             imageView.startAnimation(anim);
         }
-        else if(names.get(position).toString().equals("CGPA CALCULATOR"))
+        else if(names.get(position).toString().equals("CGPA-CALC"))
         {
             imageView.setImageResource(R.drawable.ic_cgpa);
             v.setOnClickListener(new View.OnClickListener() {

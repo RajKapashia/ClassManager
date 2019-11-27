@@ -11,7 +11,7 @@ import android.widget.GridView;
 
 import java.util.ArrayList;
 
-public class AppBase extends AppCompatActivity {
+public class AppBaseStudent extends AppCompatActivity {
 
     ArrayList<String> basicFields;
     gridAdapter adapter;
@@ -46,7 +46,6 @@ public class AppBase extends AppCompatActivity {
         divisions.add("S6 COMPUTER SCIENCE");
         divisions.add("S7 COMPUTER SCIENCE");
         gridView = (GridView)findViewById(R.id.grid);
-        basicFields.add("ATTENDANCE");
         basicFields.add("SCHEDULER");
         basicFields.add("NOTES");
         basicFields.add("PROFILE");

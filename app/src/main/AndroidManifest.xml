@@ -21,6 +21,9 @@
             android:name=".AppBase"
             android:parentActivityName=".Loginf" />
         <activity
+            android:name=".AppBaseStudent"
+            android:parentActivityName=".Loginf" />
+        <activity
             android:name=".LoginPage"
             android:parentActivityName=".Splash" />
         <activity
